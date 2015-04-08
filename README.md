@@ -32,8 +32,9 @@ Let's analyse the Leap Motion's API:
 	- Every gesture frame will have the same ID.
 	- Every frame's gesture got a STATE: STATE_START, STATE_UPDATE, STATE_STOP
 
+That's all we need to know to start the interaction.
 
-. . .
+# VLC Player
 
 The VLC interaction was made thanks to VLC web interface. Allowing to send commands to the player by URL get request:
 
@@ -43,6 +44,8 @@ http://localhost:8080/requests/status.xml?command=pl_play
 http://localhost:8080/requests/status.xml?command=pl_pause
 http://localhost:8080/requests/status.xml?command=pl_stop
 http://localhost:8080/requests/status.xml?command=volume&val=500
+
+(Tested successfully with the VLC version 2.0.8)
 
 # What is the Philips Hue?
 
