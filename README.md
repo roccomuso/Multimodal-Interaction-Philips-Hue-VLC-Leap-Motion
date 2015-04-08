@@ -1,10 +1,9 @@
 # Multimodal-Interaction-Philips-Hue-VLC-Leap-Motion
-Multimodal Interaction Project using Philips Hue, VLC and Leap Motion.
+Multimodal Interaction Project using Philips Hue, VLC Player and Leap Motion.
 
 # Introduction:
 
-The goal is to fundamentally transform how people interact with the home environment.
-
+The goal is to fundamentally transform how people interact with the home environment - Here i'm showing a brief project made in Java to do so.
 
 # What is the Leap Motion?
 
@@ -50,4 +49,11 @@ http://localhost:8080/requests/status.xml?command=volume&val=500
 The philips hue changes the way you use light. It combines new LED and wireless technology to bring smart light bulb in your home. For few dollars you can get the Hue Kit (3 bulbs and the Bridge) and start working with.
 
 The interaction with the Philips Hue Bridge was possible thanks to the RESTful API in JSON developed by philips' engineers. This makes the communication quite simple.
+
+Here you can find a brief video:
+- https://www.youtube.com/watch?v=yIIKQUk06jI
+
+Here the italian documentation:
+
+http://www.hackerstribe.com/2014/interazione-multimodale-leap-motion-philips-hue-e-vlc/
 
