@@ -40,10 +40,10 @@ The VLC interaction was made thanks to VLC web interface. Allowing to send comma
 
 Examples:
 
-http://localhost:8080/requests/status.xml?command=pl_play
-http://localhost:8080/requests/status.xml?command=pl_pause
-http://localhost:8080/requests/status.xml?command=pl_stop
-http://localhost:8080/requests/status.xml?command=volume&val=500
+- http://localhost:8080/requests/status.xml?command=pl_play
+- http://localhost:8080/requests/status.xml?command=pl_pause
+- http://localhost:8080/requests/status.xml?command=pl_stop
+- http://localhost:8080/requests/status.xml?command=volume&val=500
 
 (Tested successfully with the VLC version 2.0.8)
 
@@ -58,5 +58,5 @@ Here you can find a brief video:
 
 Here the italian documentation:
 
-http://www.hackerstribe.com/2014/interazione-multimodale-leap-motion-philips-hue-e-vlc/
+- http://www.hackerstribe.com/2014/interazione-multimodale-leap-motion-philips-hue-e-vlc/
 
